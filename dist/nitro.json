@@ -1,0 +1,8 @@
+{
+  "date": "2023-10-26T08:33:18.677Z",
+  "preset": "cloudflare-pages",
+  "commands": {
+    "preview": "npx wrangler pages dev ./",
+    "deploy": "npx wrangler pages deploy ./"
+  }
+}
