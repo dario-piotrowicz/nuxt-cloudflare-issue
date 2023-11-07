@@ -366,15 +366,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/runtime@npm:^7.21.0":
-  version: 7.23.2
-  resolution: "@babel/runtime@npm:7.23.2"
-  dependencies:
-    regenerator-runtime: "npm:^0.14.0"
-  checksum: abdcbdd590c7e31762e1bdab94dd466823c8bcedd3ff2fde85eeb94dac7cccaef151ac37c428bda7018ededd27c9a82b4dfeb621f978ad934232475a902f8e3a
-  languageName: node
-  linkType: hard
-
 "@babel/standalone@npm:^7.22.9":
   version: 7.23.2
   resolution: "@babel/standalone@npm:7.23.2"
@@ -2961,12 +2952,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"date-fns@npm:^2.30.0":
-  version: 2.30.0
-  resolution: "date-fns@npm:2.30.0"
-  dependencies:
-    "@babel/runtime": "npm:^7.21.0"
-  checksum: 70b3e8ea7aaaaeaa2cd80bd889622a4bcb5d8028b4de9162cbcda359db06e16ff6e9309e54eead5341e71031818497f19aaf9839c87d1aba1e27bb4796e758a9
+"date-fns@npm:2.29.3":
+  version: 2.29.3
+  resolution: "date-fns@npm:2.29.3"
+  checksum: 05b6ce6093ed2a09aafe89bb7a6d51ff72971341d7db1e531299d117df305c4a9f408bcdd533687622ae820ba9ea8859437b12074d7043b76325c7828e5d41fc
   languageName: node
   linkType: hard
 
@@ -5483,7 +5472,7 @@ __metadata:
   resolution: "nuxt-app@workspace:."
   dependencies:
     "@nuxt/devtools": "npm:latest"
-    date-fns: "npm:^2.30.0"
+    date-fns: "npm:2.29.3"
     nuxt: "npm:^3.8.1"
     vue: "npm:^3.3.7"
     vue-router: "npm:^4.2.5"
@@ -6364,13 +6353,6 @@ __metadata:
   dependencies:
     redis-errors: "npm:^1.0.0"
   checksum: b10846844b4267f19ce1a6529465819c3d78c3e89db7eb0c3bb4eb19f83784797ec411274d15a77dbe08038b48f95f76014b83ca366dc955a016a3a0a0234650
-  languageName: node
-  linkType: hard
-
-"regenerator-runtime@npm:^0.14.0":
-  version: 0.14.0
-  resolution: "regenerator-runtime@npm:0.14.0"
-  checksum: 6c19495baefcf5fbb18a281b56a97f0197b5f219f42e571e80877f095320afac0bdb31dab8f8186858e6126950068c3f17a1226437881e3e70446ea66751897c
   languageName: node
   linkType: hard
 
