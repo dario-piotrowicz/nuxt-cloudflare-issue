@@ -1,0 +1,17 @@
+diff --git a/node_modules/date-fns/package.json b/node_modules/date-fns/package.json
+index 44fb81c..2fc47bd 100644
+--- a/node_modules/date-fns/package.json
++++ b/node_modules/date-fns/package.json
+@@ -100,5 +100,12 @@
+   },
+   "resolutions": {
+     "ajv": "6.8.1"
++  },
++  "exports": {
++    ".": {
++      "types": "./typings.d.ts",
++      "import": "./esm/index.js",
++      "require": "./index.js"
++    }
+   }
+ }
