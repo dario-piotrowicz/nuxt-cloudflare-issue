@@ -5,6 +5,6 @@
 </template>
 
 <script setup>
-import * as date from 'date-fns'
+import * as date from 'date-fns/esm'
 console.log(date)
 </script>
