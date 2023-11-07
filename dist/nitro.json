@@ -1,5 +1,5 @@
 {
-  "date": "2023-11-07T11:02:42.260Z",
+  "date": "2023-11-07T11:10:28.847Z",
   "preset": "cloudflare-pages",
   "commands": {
     "preview": "npx wrangler pages dev ./",
